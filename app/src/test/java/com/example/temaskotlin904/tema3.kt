@@ -21,4 +21,6 @@ fun main(){
     if (sueldo>3000){
         println("Debe pagar impuestos")
     }
+
+
 }
