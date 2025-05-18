@@ -83,14 +83,14 @@ tools:context=".app.Ejercicio1Activity">
             android:text="Sumar" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/siTarjeta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="restar"
             android:text="Restar" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/noTarjeta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="multiplicar"
