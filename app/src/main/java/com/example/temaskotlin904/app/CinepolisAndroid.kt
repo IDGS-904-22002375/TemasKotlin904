@@ -54,7 +54,7 @@ class CinepolisAndroid : AppCompatActivity() {
 
         var descuentoCantidadBoletos = 0.0
         if (cantidadBoletoss.toInt() > 5) {
-            descuentoCantidadBoletos = totalSinDescuento * 0.25
+            descuentoCantidadBoletos = totalSinDescuento * 0.15
         } else if (cantidadBoletoss.toInt() > 3 && cantidadBoletoss.toInt() <= 5) {
             descuentoCantidadBoletos = totalSinDescuento * 0.10
         } else if (cantidadBoletoss.toInt() <= 2) {
