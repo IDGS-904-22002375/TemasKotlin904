@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/originalText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Original"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/invertidaText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Invertida"
+        app:layout_constraintTop_toBottomOf="@id/originalText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/vocalesText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Vocales"
+        app:layout_constraintTop_toBottomOf="@id/invertidaText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/consonantesText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Consonantes"
+        app:layout_constraintTop_toBottomOf="@id/vocalesText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/mensajeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        app:layout_constraintTop_toBottomOf="@id/consonantesText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

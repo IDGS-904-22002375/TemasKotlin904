@@ -12,49 +12,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TemasKotlin904"
         tools:targetApi="31">
+
+        <activity android:name=".app.tema4.Tema4" />
+
+        <activity
+            android:name=".app.tema3.Ejemplo3"
+            android:exported="false" />
         <activity
             android:name=".app.tema2.ResultadoActivity"
             android:exported="false" />
         <activity
             android:name=".app.tema2.Ejemplo2Activity"
             android:exported="false" />
+
+        <!-- Esta será la actividad de inicio -->
         <activity
             android:name=".app.MenuActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Elimina los filtros MAIN/LAUNCHER de las otras -->
         <activity
             android:name=".app.CinepolisAndroid"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".app.Ejercicio1Activity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".app.Ejercicio2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
